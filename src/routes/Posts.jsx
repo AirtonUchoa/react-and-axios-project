@@ -33,7 +33,7 @@ const Posts = () => {
     }, [])
 
   return (
-    <div className="post-container">
+    <div className="post-container container">
         {!post.title ? (
             <p>Carregando...</p>) : 
             (<div className="post-container">
